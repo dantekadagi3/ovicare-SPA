@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary branding colors */
+  --color-primary-pink:    #E14491; /* Vibrant fuchsia/pink glow */
+  --color-purple-dark:     #752A7D; /* Deep purple accent */
+  --color-soft-violet:     #B95DF1; /* Soft neon violet */
+  --color-electric-blue:   #5BCFF2; /* Futuristic light blue */
+  --color-navy-dark:       #1B1F38; /* Dark tech background */
+  
+  /* Utility colors */
+  --color-white:           #FFFFFF; /* Text and highlights */
+}
+
+.overlay {
+  background: linear-gradient(
+    to right,
+    rgba(117, 42, 125, 0.85),  /* Deep purple with opacity */
+    rgba(225, 68, 145, 0.7),   /* Vibrant pink with lighter opacity */
+    rgba(185, 93, 241, 0.6)    /* Soft violet for glow */
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
